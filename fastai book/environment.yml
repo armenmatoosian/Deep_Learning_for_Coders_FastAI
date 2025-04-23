@@ -6,13 +6,14 @@ channels:
     - nvidia
     - conda-forge
 dependencies:
+  - jupyterlab
   - nb_conda_kernels
   - nodejs
   - python>=3.12
-  - pytorch=2.6.0
+  - pytorch>=2.5
   - torchvision
   - torchaudio
-  - pytorch-cuda=12.6
+  - pytorch-cuda=12.4
   - pip
   - pip:
     - -r requirements.txt
